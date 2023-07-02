@@ -1,0 +1,61 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./index.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="choose">
+        <button data-level="2" class="level">Easy</button>
+        <button data-level="4" class="level">Medium</button>
+        <button data-level="6" class="level">Hard</button>
+        <button data-level="7" class="level">Very Hard</button>
+    </div>
+    <div class="board">
+        <div data-value="50" class="chessA">♖</div>
+        <div data-value="30" class="chessA">♘</div>
+        <div data-value="30" class="chessA">♗</div>
+        <div data-value="90" class="chessA">♕</div>
+        <div data-value="900" class="chessA">♔</div>
+        <div data-value="30" class="chessA">♗</div>
+        <div data-value="30" class="chessA">♘</div>
+        <div data-value="50" class="chessA">♖</div>
+        <div data-value="10" class="chessA">♟</div>
+        <div data-value="10" class="chessA">♟</div>
+        <div data-value="10" class="chessA">♟</div>
+        <div data-value="10" class="chessA">♟</div>
+        <div data-value="10" class="chessA">♟</div>
+        <div data-value="10" class="chessA">♟</div>
+        <div data-value="10" class="chessA">♟</div>
+        <div data-value="10" class="chessA">♟</div>
+
+        <div data-value="50" class="chessB">♖</div>
+        <div data-value="30" class="chessB">♘</div>
+        <div data-value="30" class="chessB">♗</div>
+        <div data-value="90" class="chessB">♕</div>
+        <div data-value="900" class="chessB">♔</div>
+        <div data-value="30" class="chessB">♗</div>
+        <div data-value="30" class="chessB">♘</div>
+        <div data-value="50" class="chessB">♖</div>
+        <div data-value="10" class="chessB">♟</div>
+        <div data-value="10" class="chessB">♟</div>
+        <div data-value="10" class="chessB">♟</div>
+        <div data-value="10" class="chessB">♟</div>
+        <div data-value="10" class="chessB">♟</div>
+        <div data-value="10" class="chessB">♟</div>
+        <div data-value="10" class="chessB">♟</div>
+        <div data-value="10" class="chessB">♟</div>
+    </div>
+    <div id="infor">
+        <a href="./" class="infor__class">Back</a>
+        <div id="level__infor" class="infor__class"></div>
+        <div id="status" class="infor__class"></div>
+        <div id="evaluated" class="infor__class"></div>
+        <div id="positions" class="infor__class"></div>
+    </div>
+    <div class="board" style="z-index: -2;"></div>
+</body>
+<script src="./index.js"></script>
+</html>
